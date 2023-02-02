@@ -1,0 +1,156 @@
+.FooterWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .bgWrapper {
+        width: 100%;
+        padding: 50px;
+        background: url("../../assets/footerimg.png");
+        background-position: center;
+        background-size: cover;
+        .FooterTop {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            .FooterTopIcons {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-right: 50px;
+                margin-bottom: 20px;
+                .socialLinks {
+                    text-decoration: none;
+                    color: #fff;
+                    .socialIcons {
+                        font-size: 30px;
+                        margin-right: 15px;
+                        transition: all ease-in-out .3s;
+                    }
+                }
+            }
+        }     
+        .FooterMid {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            .box {
+                flex-basis: 25%;
+                &:nth-child(1) {
+                    flex-basis: 17%;
+                }
+                &:nth-child(2) {
+                    flex-basis: 33%;
+                }
+                .header {
+                    font-weight: 400;
+                    font-size: 22px;
+                    line-height: 42px;
+                    color: #fff;
+                    text-transform: uppercase;
+                }
+                .lineFooter {
+                    display: flex;
+                    align-items: center;
+                    .footer-icons {
+                        color: #fff;
+                        font-size: 20px;
+                        margin-right: 15px;
+                    }
+                    a {
+                        text-decoration: none;
+                    }
+                    .paraFoot {
+                        font-weight: 200;
+                        font-size: 16px;
+                        line-height: 42px;
+                        color: #fff;
+                    }
+                    #parafoot {
+                        line-height: 20px;
+                    }
+                }       
+                .FooterLink {
+                    text-decoration: none;
+                    transition: all ease-in-out .2s;
+                    .paraFoot {
+                        font-weight: 200;
+                        font-size: 16px;
+                        line-height: 42px;
+                        color: #fff;
+                    }
+                    .info {
+                        text-decoration: underline;
+                    }       
+                    :hover {
+                        color: #E9020C;
+                        transition: all ease-in-out .2s;
+                    }
+                }
+            }
+        }
+    }
+    .FooterBottom {
+        width: 100%;
+        text-align: center;
+        background-color: #e5e5e5;
+        .copyrights {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 21px;
+            color:#000;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+    }
+}
+//MEDIA QUERIS FOR RESPONSIVNESS
+@media screen and (max-width:1100px) {
+    .FooterWrapper {
+        .bgWrapper {
+            .FooterMid {
+                    .box {
+                        flex-basis: 50%;
+                        &:nth-child(1),&:nth-child(2) {
+                            flex-basis: 50%;
+                        }
+                    }
+                }
+        }
+    }
+    
+}
+@media screen and (max-width:600px) {
+    .FooterWrapper {
+        .bgWrapper {
+            padding: 30px;
+            .FooterTop {
+                .FooterTopIcons {
+                    margin-right: 0px;
+                    margin-bottom: -50px;
+                }
+            }
+            .FooterMid {
+                flex-direction: column;
+                align-items: flex-start;
+                .box {
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:370px) {
+    .FooterWrapper {
+        .bgWrapper {
+            .FooterTop {
+                justify-content: flex-start;
+                .FooterTopIcons {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}

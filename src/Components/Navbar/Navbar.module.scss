@@ -1,0 +1,244 @@
+// @import "../styles/variables.scss";
+$Poppins: "Poppins", sans-serif;
+
+// colors
+$dark: rgb(29, 29, 29);
+$light: #fff;
+$primary: #E9020C;
+$bg: rgb(244, 244, 255);
+
+// spacing
+$spacing-md: 16px;
+$spacing-lg: 32px;
+
+// border radius
+$borderRadius: 12px;
+
+// header height
+$headerHeight: 100px;
+
+@mixin breakpoint($point) {
+    @if $point ==md {
+
+        // 768px
+        @media (min-width: 50em) {
+            @content;
+        }
+    }
+}
+nav a.active{
+    background-color: rgb(99, 222, 47);
+}
+.header {
+    // background: rgb(29, 29, 29);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .05);
+    width: 100%;
+    height: 100px;
+    padding: 0 1.5rem;
+    position: absolute;
+    top: 0;
+    @include breakpoint(md) {
+        padding: 0 3rem;
+    }
+
+    transition: 0.3s ease all;
+
+    &__content {
+        overflow: hidden;
+        // color: #fff;
+        margin: 0 auto;
+        max-width: 1920px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        z-index: 100;
+
+        &__logo {
+            align-items: center;
+            img {
+                width: 90px;
+                margin-top: 10px;
+                @include breakpoint(md) {
+                        width: 140px;
+                    }
+            }
+        }
+
+        &__nav {
+            top: 0;
+            right: 100%;
+            bottom: 0;
+            width: 100%;
+            height: 100vh;
+            position: fixed;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            transform: translate(0);
+            transition: 0.3s ease transform;
+
+            @include breakpoint(md) {
+                transform: none;
+                flex-direction: row;
+                background: transparent;
+                width: auto;
+                height: 100%;
+                position: static;
+                
+            }
+            &__navbarIcons {
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                left: 25px;
+                height: 100%;
+                justify-content: center;
+                top: 50%;
+                transform: translateY(-55%);
+                @include breakpoint(md) {
+                    display: none;
+                }
+                &__icon {
+                    color: #fff;
+                    font-size: 40px;
+                    margin-bottom: 25px;
+                    font-weight: 800;
+                }
+            }
+            &__navOpenLogo {
+                position: absolute;
+                bottom: 30px;
+                left: 30px;
+                img {
+                    width: 160px;
+                }
+                @include breakpoint(md) {
+                        display: none;
+                    }
+            }
+            &__MenuWord {
+                -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    font-size: 24px;
+                    text-align: center;
+                    text-transform: uppercase;
+                    font-weight: 800;
+                    -webkit-font-smoothing: antialiased;
+                    -webkit-text-stroke-width: 1px;
+                    margin-top: -50px;
+                    margin-bottom: 30px;
+                    margin-left: 20px;
+                @include breakpoint(md) {
+                        display: none;
+                    }
+            }
+            ul {
+                list-style: none;
+                padding: 0;
+                display: flex;
+                flex-direction: column;
+                margin-bottom: $spacing-lg;
+
+                @include breakpoint(md) {
+                    flex-direction: row;
+                    align-items: center;
+                    margin-bottom: 0;
+                    margin-right: calc(0.5rem + #{$spacing-md});
+                }
+
+                li {
+                    
+                    &:not(:last-child) {
+                        margin-bottom: $spacing-lg;
+
+                        @include breakpoint(md) {
+                            margin-bottom: 0;
+                            margin-right: 50px;
+                        }
+                    }
+
+                    a {
+                        text-decoration: none;
+                        color: inherit;
+                        padding: 0.75rem 1.25rem;
+                        border-radius: $borderRadius;
+                        transition: 0.3s ease all;
+
+                        &:hover {
+                            background: rgba($light, 0.1);
+                        }
+
+                        &:active {
+                            border-radius: calc(#{$borderRadius} + 6px);
+                            background: linear-gradient(rgba($light, 0.1), rgba($light, 0.2));
+                        }
+                    }
+                }
+            }
+
+            button {
+                cursor: pointer;
+                outline: none;
+                padding: 7px 15px;
+                font-size: 1rem;
+                font-family: inherit;
+                background: $primary;
+                color: $light;
+                border: 1px solid transparent;
+                transition: 0.3s ease all;
+                border-radius: 6px;
+                font-weight: 600;
+
+                &:hover {
+                    border-color: $primary;
+                    background: rgba($primary, 0.1);
+                }
+
+                &:active {
+                    border-color: $primary;
+                    background: linear-gradient(rgba($primary, 0.2), rgba($primary, 0.3));
+                }
+            }
+
+            &.isMenu {
+                transform: translate(100%);
+                background: rgb(rgb(30, 30, 30), 0.8);
+                backdrop-filter: blur(5px);
+                color: #fff;
+                ul {
+                    margin-left: 60px;
+                    li {
+                        font-weight: 600;
+                        font-size: 32px;
+                    }
+                }
+                button {
+                    margin-left: 60px;
+                    font-weight: 600;
+                    font-size: 20px;
+                }
+            }
+        }
+
+        &__toggle {
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            font-size: 2rem;
+            transition: 0.3s ease all;
+            position: relative;
+
+            &:hover {
+                color: $primary;
+            }
+
+            @include breakpoint(md) {
+                display: none;
+            }
+        }
+    }
+}

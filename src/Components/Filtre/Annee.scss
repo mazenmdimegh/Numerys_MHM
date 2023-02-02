@@ -1,0 +1,332 @@
+/* .filters-container{
+   
+} */
+.range-filter {
+    border: 1px solid var(--prm-red);
+    border-radius: 50px;
+    width: 60%;
+    position: relative;
+}
+
+.select-date {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height, or 150% */
+
+letter-spacing: -0.1px;
+
+/* Greys / #9A9EA7 */
+
+color: #9A9EA7;
+border: none;
+    
+}
+
+.date-permis{
+    margin-top: -1rem;
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 1.5rem;
+    grid-gap: 1.5rem;
+    grid-gap: 1.5rem;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.date-filter {
+    border: 1px solid var(--prm-red);
+    border-radius: 50px;
+    height: 48px;
+    padding: 1rem 0rem;
+    padding-right: -70rem;
+    display: flex;
+    margin-right: 6rem;
+    margin-left: 4rem;
+    padding-top: 2rem;
+}
+
+#radio {
+    color: var(--prm-light);
+    font-size: 14px;
+    font-style: italic;
+    padding-left: -0.7rem;
+    padding-top: 1rem;
+    margin-right: 3rem;
+    margin-left: -8rem;
+}
+
+.button-radio {
+    border: 1px solid var(--prm-light);
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 0px;
+    height: 26px;
+    width: 29px;
+    margin-right: 5px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: var(--transition);
+    border: solid;
+    width: 67px;
+    height: 20px;
+}
+
+
+select{
+    margin-left:3px;
+}
+
+.permis-filter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--prm-red);
+    border-radius: 50px;
+    height: 48px;
+    width: 285px;
+    padding: 0.5rem 0rem;
+}
+.pa2 {
+    width: 49px;
+    height: 49px;
+    padding: 0rem 0rem;
+}
+
+.button-filler {
+    background-color: var(--prm-light);
+    box-shadow: var(--light-shadow);
+    transition: var(--transition-3);
+    height: 20px;
+    width: 20px;
+    display: block;
+    border-radius: 50px;
+}
+.first-date{
+    padding-top: 5px;
+    padding-right: 65px;
+}
+.second-date{
+    padding-top: 5px;
+padding-right: -17px;
+margin-right: -8rem;
+
+}
+.dropDownFilter{
+    display: flex;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 21px;
+background-color: var(--prm-light);
+    box-shadow: var(--light-shadow);
+    transition: var(--transition-3);
+/* or 175% */
+
+letter-spacing: -0.1px;
+text-transform: uppercase;
+justify-content: center;
+
+/* Greys / #9A9EA7 */
+
+color: #9A9EA7;
+border: none;
+}
+
+
+@media screen and (max-width:1190px){
+    .filters-container {
+        margin-top: 2.5rem;
+        display: block;
+    }
+    .range-filter {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+
+    .date-permis {
+        margin-top: 0.8rem;
+        margin:0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+    }
+    .date-filter {
+        border: 1px solid var(--prm-red);
+        border-radius: 50px;
+        height: 48px;
+        padding: 0.5rem 0rem;
+        display: flex;
+        justify-content: center;
+        width: 6%;
+        display: flex;
+    }
+
+#radio {
+    color: var(--prm-light);
+    font-size: 14px;
+    font-style: italic;
+    padding-left: 0rem;
+}
+
+.button-radio {
+    position: absolute;
+    left: 1rem;
+}
+   
+.permis-filter {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    position: relative;
+}
+ 
+.pa2 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right:-0.1rem;
+    padding: 0rem 0rem;
+}
+    
+    
+}
+
+
+@media screen and (max-width:600px) {
+.range-filter {
+    width: 100%;
+    margin: 0 auto;
+}
+.filters-container {
+    margin: 0 auto;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    grid-gap: 1.2rem;
+    grid-gap: 1.2rem;
+    grid-gap: 1.2rem;
+    gap: 1.2rem;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.select-date{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+    color: #9A9EA7;
+    border: none;
+}
+
+.date-filter{
+    border: 1px solid var(--prm-red);
+    border-radius: 50px;
+}
+
+.sm-txt{
+    font-size:12px
+}
+.button-filler {
+    background-color: var(--prm-light);
+    box-shadow: var(--light-shadow);
+    transition: var(--transition-3);
+    height: 17px;
+    width: 18px;
+    display: block;
+    border-radius: 50px;
+}
+
+.date-permis {
+    margin-top: 0.8rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.date-filter {
+    border: 1px solid var(--prm-red);
+    border-radius: 50px;
+    height: 48px;
+    padding: 0.5rem 0.5rem;
+    display: flex;
+    justify-content: center;
+    width:6%;
+    display: flex;
+}
+
+#radio {
+    color: var(--prm-light);
+    font-size: 12px;
+    font-style: italic;
+    padding-left: 2rem;
+    margin-left: 1rem;
+}
+
+.button-radio {
+    border: 1px solid var(--prm-light);
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 0px;
+    height: 25px;
+    width: 25px;
+    margin-right: 0px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: var(--transition);
+}
+
+#selectFilter {
+    margin-left: 3px;
+    background-color: greenyellow;
+    border: none;
+    margin-right: 5rem;
+    margin-left: 5rem;
+}
+
+.permis-filter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid var(--prm-red);
+    border-radius: 50px;
+    height: 48px;
+    width: 60%;
+    padding: 0.5rem 0rem;
+}
+
+.pa2 {
+    width: 49px;
+    height: 55px;
+    padding: 0.2rem 0rem;
+}
+
+.button-filler {
+    background-color: var(--prm-light);
+    box-shadow: var(--light-shadow);
+    transition: var(--transition-3);
+    height: 20px;
+    width: 20px;
+    display: block;
+    border-radius: 50px;
+}
+
+.span-text{
+    width: 50%;
+}
+}
+
+

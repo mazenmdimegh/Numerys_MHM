@@ -1,0 +1,18 @@
+.float{
+    float: right;
+    animation: anime 1s infinite  ease-in-out alternate;
+    -webkit-animation: anime 1s infinite  ease-in-out alternate;
+    position: fixed;
+    bottom: 6vh;
+    right: 2vw;
+    z-index: 1;
+}
+@keyframes anime {
+    100% {
+        transform: translateY(20px);
+        -webkit-transform: translateY(20px);
+        -moz-transform: translateY(20px);
+        -ms-transform: translateY(20px);
+        -o-transform: translateY(20px);
+    }
+}

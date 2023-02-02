@@ -1,0 +1,296 @@
+.wrapper_box {
+    position: relative;
+    width: 100%;
+}
+.stepImg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.n_etape {
+    font-size: 16px;
+    color: #9A9EA7;
+    line-height: 24px;
+}
+
+.etapNb {
+    color: #FF000B;
+    font-weight: 700;
+}
+
+.paymentPara {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+    color: #9A9EA7;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+/*RADIO BUTTONS CUSTOMAIZE*/
+/* Customize the label (the container) */
+.radioContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 20px 35px 20px 45px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+    color: #9A9EA7;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    transition: all ease-in-out 0.2s;
+}
+
+/* Hide the browser's default radio button */
+.radioContainer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+    transition: all ease-in-out 0.2s;
+}
+
+/* Create a custom radio button */
+.radioCircle {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.radioContainer:hover input~.radioCircle {
+    background-color: #ccc;
+    transition: all ease-in-out 0.2s;
+}
+
+/* When the radio button is checked, add a blue background */
+.radioContainer input:checked~.radioCircle {
+    background-color: #fff;
+    border: 1px solid #E9020C;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.radioCircle:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radioContainer input:checked~.radioCircle:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radioContainer .radioCircle:after {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #E9020C;
+}
+
+/*Existing cards style*/
+.cardInfo {
+    cursor: pointer;
+    background-color: transparent;
+    padding: 12px 35px 12px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+    margin: 12px auto;
+    transition: all ease-in-out 0.2s;
+    /* max-width: 600px; */
+}
+
+.cardInfo:hover {
+    opacity: 0.7;
+    transition: all ease-in-out 0.2s;
+}
+
+.cardInfo:hover .insideCircle {
+    display: block;
+    transition: all ease-in-out 0.2s;
+}
+
+.cardInfoBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.cardInfoBox .titles {
+    color: #E9020C;
+    font-size: 12px;
+}
+
+.cardInfoBox .info {
+    color: #9A9EA7;
+    font-size: 12px;
+}
+
+.cardInfo .cardName {
+    font-size: 10px;
+    color: #2196F3;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.choiceBtn {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    border: 1px solid #E9020C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.insideCircle {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: #E9020C;
+    display: none;
+    transition: all ease-in-out 0.2s;
+}
+
+.lineT {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+    color: #9A9EA7;
+}
+
+.wrapper_box .line {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+
+.wrapper_box .line .fourhr {
+    color: #c4c4c4;
+    padding: 0 !important;
+    display: block;
+    width: 42%;
+    border: 0.5px solid #C4C4C4;
+}
+.totalMoney {
+    display: flex;
+    margin-bottom: 10px;
+}
+#price-container {
+    color: #E9020C;
+    font-weight: 600;
+    margin-left: 5px;
+}
+.scalaBtn {
+    background-color: #000;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 8px;
+        width: 100%;
+        color: #fff;
+        padding: 13px 80px;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 24px;
+        margin: 0 auto;
+        transition: all ease-in-out 0.2s;
+}
+.scalaBtn:hover {
+    background-color: rgb(72, 72, 72);
+    transition: all ease-in-out 0.2s;
+}
+/*RESPONSIVNESS*/
+@media screen and (max-width:450px) {
+    .wrapper_box .line .fourhr {
+            color: #c4c4c4;
+            padding: 0 !important;
+            display: block;
+            width: 42%;
+            border: 0.5px solid #C4C4C4;
+        }
+
+    .radioContainer {
+        font-size: 12px;
+        padding: 20px 15px 20px 37px;
+    }
+
+    .radioCircle {
+        height: 18px;
+        width: 18px;
+    }
+
+    .radioContainer .radioCircle:after {
+        width: 12px;
+        height: 12px;
+    }
+}
+@media screen and (max-width:320px) {
+    .wrapper_box .line .fourhr {
+            color: #c4c4c4;
+            padding: 0 !important;
+            display: block;
+            width: 42%;
+            border: 0.5px solid #C4C4C4;
+        }
+    .radioContainer {
+        padding: 20px 5px 20px 32px;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .wrapper_box .line .fourhr {
+            color: #c4c4c4;
+            padding: 0 !important;
+            display: block;
+            width: 42%;
+            border: 0.5px solid #C4C4C4;
+        }
+    .radioContainer {
+        padding: 20px 0px 20px 27px;
+    }
+
+    .cardInfoBox .title {
+        font-size: 10px;
+    }
+
+    .cardInfoBox .info {
+        font-size: 10px;
+    }
+
+    .cardInfo .cardName {
+        font-size: 8px;
+    }
+}

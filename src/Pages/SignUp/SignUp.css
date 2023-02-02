@@ -1,0 +1,691 @@
+/* WRAPPERS STYLE */
+.wrapper {
+    width: 100vw;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formWrapper {
+    width: 97%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* RIGHT PART OF THE PAGE */
+.rightPart {
+    position: relative;
+    flex-basis: 45%;
+    min-height: 700px;
+    background-image: url('../../assets/bg_moto.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    padding: 120px 40px 120px;
+}
+
+.topPart__heading {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 85px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.right__bottomPart {
+    width: 90%;
+    position: absolute;
+    bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.bottomPart__para {
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+}
+
+.bottomPart__btn {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #E9020C;
+    padding: 10px 30px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: #FFFFFF;
+    transition: all ease-in-out 0.3s;
+}
+
+.bottomPart__btn:hover {
+    background-color: #f53c45;
+    transition: all ease-in-out 0.3s;
+}
+
+/* LEFT PART OF THE PAGE */
+.leftPart {
+    flex-basis: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.left__topPart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.left__topPart--heading {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: #0D0A19;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.left__topPart--para {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: #9A9EA7;
+}
+
+.left__middlePart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    position: relative;
+}
+
+.formLine {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    width: 100%;
+    padding: 20px 40px 20px 20px;
+    margin-bottom: 8px;
+    outline: none;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #0D0A19;
+    font-family: 'Poppins', sans-serif;
+}
+
+input::placeholder {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+    color: #9A9EA7;
+}
+
+.formLine.personLine .input-icons {
+    width: 49% !important;
+}
+
+.input-icons span {
+    position: absolute;
+    right: 18px;
+    top: 27px;
+    color: #9A9EA7;
+    text-align: center;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 18px;
+}
+
+.input-icons {
+    width: 100%;
+    position: relative;
+}
+
+.input-field {
+    width: 100%;
+}
+
+.errorInput {
+    border: 2px solid #E9020C;
+}
+
+.paraErr {
+    width: 100%;
+    max-width: 450px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #E9020C;
+    text-align: start;
+    justify-self: start;
+    margin-bottom: 8px;
+}
+
+.formBtn {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: #fff;
+    padding: 16px;
+    width: 100%;
+    background: #E9020C;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+    color: #FFFFFF;
+    transition: all ease-in-out 0.2s;
+}
+
+.formBtn:hover {
+    background-color: #f53c45;
+    transition: all ease-in-out 0.2s;
+}
+
+/*=======================================================================
+                                CUSTOM CHECKBOX
+=========================================================================*/
+/* Customize the label (the container) */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+    color: #9A9EA7;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #F5F6F7;
+    transition: all ease-in-out 0.2s;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input~.checkmark {
+    background-color: #ccc;
+    transition: all ease-in-out 0.2s;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked~.checkmark {
+    background-color: #f53c45;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+    height: 8px;
+    width: 8px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-color: #fff;
+}
+.resP {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: -0.1px;
+    color: #E9020C;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.left__bottomPart {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.lineThrough {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: #9A9EA7;
+    position: relative;
+    margin: 10px 20px;
+    width: 100%;
+}
+
+.socialBoxes {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.socialBox {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #E9020C;
+    border-radius: 10px;
+    padding: 12px 40px;
+}
+.socialBox:nth-child(2) {
+    padding: 14px 40px;
+}
+
+.verificationContainer {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 999999999999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0.65) 41%,
+            rgba(0, 0, 0, 0.65) 100%);
+}
+
+.verifElements {
+    background-image: url("../../assets/termsBg.png");
+    background-position: center;
+    background-size: 95%;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    padding: 35px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.verifElements input {
+    width: 50px !important;
+    height: 50px !important;
+    padding: 5px !important;
+    text-align: center !important;
+}
+
+.verifPara {
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.verifBtn {
+    margin-top: 40px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #E9020C;
+    padding: 10px 30px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: #FFFFFF;
+    transition: all ease-in-out 0.3s;
+}
+
+.verifBtn:hover {
+    background-color: #f53c45;
+    transition: all ease-in-out 0.3s;
+}
+
+.paraErr0 {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    color: #E9020C;
+    text-align: center;
+
+}
+.closeBtnModal {
+    color: #D8D8D8;
+    font-size: 26px;
+    cursor: pointer;
+    align-self: flex-end;
+    margin-bottom: 15px;
+}
+.new {
+    display: none;
+}
+.oupgg {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px auto;
+}
+.oupgg .lineOu {
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        /* identical to box height, or 150% */
+    
+        text-align: center;
+        letter-spacing: -0.1px;
+    
+        color: #9A9EA7;
+}
+.oupgg .opHR {
+    width: 45%;
+    /* height: 1px; */
+    border: .5px solid #ECECF2;
+}
+.signHR {
+    display: none;
+}
+/*=======================================================================
+                            RESPONSIVNESS
+=========================================================================*/
+@media screen and (max-width:1225px) {
+    .formWrapper {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .formWrapper {
+        width: 95%;
+    }
+
+    .rightPart {
+        padding: 80px 20px;
+        flex-basis: 50%;
+    }
+    .leftPart {
+        flex-basis: 50%;
+    }
+
+    .topPart__heading {
+        font-size: 44px;
+        margin-bottom: 50px;
+    }
+
+    .left__topPart {
+        margin-bottom: 15px;
+    }
+
+    .left__topPart--heading {
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    input {
+        padding: 15px 20px;
+    }
+
+    .input-icons span {
+        top: 18px;
+        right: 14px;
+    }
+}
+
+@media screen and (max-width:868px) {
+    .signHR {
+        display: block;
+        background: #9A9EA7;
+        border-radius: 100px;
+        height: 6px;
+        width: 50%;
+        max-width: 140px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .wrapper {
+        align-items: stretch;
+    }
+
+    .formWrapper {
+        flex-direction: column;
+        min-height: 100vh;
+        width: 100%;
+    }
+
+    .rightPart {
+        flex-basis: 30%;
+        width: 100%;
+        border-radius: 0;
+        background-size: cover;
+        min-height: unset;
+        height: unset;
+        margin-bottom: -25px;
+    }
+
+    .topPart__heading {
+        display: none;
+    }
+
+    .right__bottomPart {
+        display: none;
+    }
+
+    .leftPart {
+        flex-basis: 70%;
+        box-shadow: 0px -15px 20px rgba(13, 10, 25, 0.1);
+        border-radius: 12px 12px 0px 0px;
+        background-color: #fff;
+        width: 100%;
+        z-index: 1000000;
+    }
+
+    .formBox {
+        height: 90%;
+        justify-content: space-evenly;
+    }
+
+    .left__topPart--heading {
+        font-size: 24px;
+        /* margin-top: -10px; */
+        margin-bottom: 15px;
+    }
+    .new {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 15px;
+    }
+    .new .first {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 24px;
+        letter-spacing: -0.1px;
+        color: #979797;
+    }
+        .new .second {
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 24px;
+            letter-spacing: -0.1px;
+            color: #2800FF;
+            text-decoration: none;
+        }
+}
+
+@media screen and (max-width:532px) {
+    .verifElements {
+        padding: 35px 15px;
+        width: 95%;
+    }
+
+    .verifElements input {
+        width: 50px !important;
+        height: 50px !important;
+        padding: 5px !important;
+        text-align: center !important;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .formBox {
+                width: 95%;
+    }
+    input {
+        padding: 15px 27px 15px 10px;
+        font-size: 16px;
+    }
+
+    .input-icons span {
+        font-size: 18px;
+        right: 10px;
+    }
+
+    .verifElements {
+        padding: 35px 8px;
+        width: 97%;
+    }
+
+    .verifElements input {
+        width: 40px !important;
+        height: 40px !important;
+        padding: 3px !important;
+        text-align: center !important;
+        font-size: 18px !important;
+    }
+        .left__topPart--heading {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .socialBox {
+        padding: 10px 30px;
+    }
+    .socialBox:nth-child(2) {
+        padding: 12px 30px;
+    }
+
+    .signHR {
+        width: 30%;
+    }
+
+    .verifElements {
+        padding: 25px 8px;
+        width: 97%;
+    }
+
+    .verifElements input {
+        width: 35px !important;
+        height: 35px !important;
+        padding: 3px !important;
+        font-size: 22px !important;
+        text-align: center !important;
+    }
+}
+@media screen and (max-width:380px) {
+    #dis {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .resP {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .container {
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-height:750px) {
+    .socialBoxes {
+        margin-bottom: 20px;
+    }
+
+    .signHR {
+        height: 6px !important;
+    }
+
+    .left__topPart {
+        margin-top: 15px;
+    }
+}

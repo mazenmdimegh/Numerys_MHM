@@ -1,0 +1,54 @@
+.datepp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .hourWrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 15px;
+        background-color: #fff;
+        max-width: 250px;
+        min-width: 220px;
+        max-height: 150px;
+        overflow-y: scroll;
+        margin: 20px auto;
+        &::-webkit-scrollbar {
+            width: 5px;
+        }
+        &::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        &::-webkit-scrollbar-thumb {
+            background: #c4c4c4;
+        }
+        &::-webkit-scrollbar-thumb:hover {
+            background: #888;
+        }
+        .notavailable {
+            color: #E9020C;
+            text-align: center;
+        }
+        .ht {
+            padding: 5px;
+            border: 1px solid #E9020C;
+            color: #E9020C;
+            border-radius: 8px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            width: 55px;
+            text-align: center;
+            cursor: pointer;
+            transition: all ease-in-out .2s;
+            &:hover {
+                background-color: #E9020C;
+                color: #fff;
+                transition: all ease-in-out .2s;
+            }
+            @media screen and (max-width:450px) {
+                width: 80%;
+            }
+        }
+    }
+}

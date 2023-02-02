@@ -1,0 +1,42 @@
+.step2_wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .stepImg {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .etape {
+        align-self: flex-start;
+        .n_etape {
+            font-size: 16px;
+            color: #9A9EA7;
+            line-height: 24px;
+
+            .etapNb {
+                color: #FF000B;
+                font-weight: 700;
+            }
+        }
+    }
+
+    .paymentPara {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 21px;
+        letter-spacing: -0.1px;
+        color: #9A9EA7;
+        margin-top: 25px;
+        margin-bottom: 30px;
+    }
+    .caln {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}

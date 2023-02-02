@@ -1,0 +1,109 @@
+.HeaderWrapper {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    min-height: 450px;
+    position: relative;
+    .DescWrapper {
+        position: absolute;
+        bottom: 50px;
+        left: 50px;
+        width: 80%;
+        .HeaderTitle {
+            font-size: 60px;
+            color: #fff;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: 900;
+        }
+        .HeaderDescription {
+            font-size: 20px;
+            color: #fff;
+            font-weight: 300;
+        }
+    }
+    .headerIcons {
+        position: absolute;
+        right: 40px;
+        top:50%;
+        transform: translateY(-50%);
+        display: flex;
+        flex-direction: column;
+        .iconHeader {
+            color: #fff;
+            font-size: 30px;
+            margin-bottom: 10px;
+            font-weight: 800;
+        }
+    }
+}
+//MEDIA QUERIES FOR RESPONSIVNESS 
+@media screen and (max-width:1025px) {
+    .HeaderWrapper {
+            .DescWrapper {
+                .HeaderTitle {
+                    font-size: 50px;
+                    margin-bottom: 20px;
+                    text-transform: uppercase;
+                    font-weight: 800;
+                }    
+                .HeaderDescription {
+                    font-size: 18px;
+                }
+            }
+        }
+}
+@media screen and (max-width:788px) {
+    .HeaderWrapper {
+        height: 90vh;
+        .DescWrapper {
+            .HeaderTitle {
+                font-size: 39px;
+                margin-bottom: 20px;
+                font-weight: 800;
+            }
+
+            .HeaderDescription {
+                font-size: 16px;
+            }
+        }
+        .headerIcons {
+            display: none;
+        }
+    }
+}
+@media screen and (max-width:560px) {
+    .HeaderWrapper {
+        .DescWrapper {
+            left: 30px;
+            bottom: 30px;
+            .HeaderTitle {
+                font-size: 30px;
+                margin-bottom: 20px;
+                font-weight: 800;
+            }
+            .HeaderDescription {
+                font-size: 13px;
+            }
+        }
+    }
+}
+@media screen and (max-width:360px) {
+    .HeaderWrapper {
+        .DescWrapper {
+            left: 20px;
+            bottom: 20px;
+
+            .HeaderTitle {
+                font-size: 28px;
+                font-weight: 800;
+            }
+
+            .HeaderDescription {
+                font-size: 14px;
+            }
+        }
+    }
+}

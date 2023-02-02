@@ -1,0 +1,168 @@
+.motoCard {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    border-radius: 14px;
+    border: 1px solid #EEEEEE;
+    border-radius: 14px;
+    padding-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    width: 21%;
+}
+
+.emptyprod {
+
+    margin-top: 48vh;
+    margin-bottom: 25vh;
+    
+    .spinner {
+        position: relative;
+        margin-top: 48vh;
+        margin-bottom: 25vh;
+    }
+
+}
+
+.motoComponent {
+    background: #FFFFFF;
+    border-radius: 0px 0px 8px 8px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    margin: 2rem;
+}
+
+.motoComponent img {
+    padding: 0rem;
+    padding-right: 0rem;
+    width: 349px;
+    height: 250px;
+}
+
+.motoStatus {
+    display: flex;
+}
+
+#status {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: -0.1px;
+
+    color: #9A9EA7;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.motoDetails_bloc1 {
+    display: flex;
+}
+
+#dateMoto {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 2rem;
+    /* or 150% */
+
+
+    color: #0D0A19;
+    margin-right: 19%;
+}
+
+#demande_contact {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: #FCD9DB;
+    border-radius: 8px;
+    margin: auto;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: #E9020C;
+    border: transparent;
+    height: 37px;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+#turbo {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* or 150% */
+
+    letter-spacing: -0.1px;
+
+    color: #9A9EA7;
+    margin-right: 50%;
+    margin-left: 2rem;
+
+}
+
+#prices {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #9A9EA7;
+    margin: auto;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), #9A9EA7;
+    border-radius: 8px;
+    width: 16%;
+    height: 32px;
+    justify-content: center;
+    padding-top: 5px;
+    margin-right: 2rem;
+
+}
+
+.pop {
+    justify-content: center;
+    display: flex;
+    /* margin-bottom: 60%; */
+    height: 85%;
+    margin-top: -10rem;
+    /* padding-bottom: -8rem; */
+    margin-right: 28%;
+    margin-left: -38%;
+}
+
+/* #img-allproduct {
+    width: 100%;
+} */
+.img-allproduct {
+    width: 100%;
+}
+
+.img-allproduct img {
+    width: 100%;
+    object-fit: contain;
+}
+
+@media screen and (max-width:600px) {
+    .motoCard {
+        background: #FFFFFF;
+        border: 1px solid #EEEEEE;
+        border-radius: 14px;
+        border: 1px solid #EEEEEE;
+        border-radius: 14px;
+        padding-bottom: 2rem;
+        margin-left: 3.5rem;
+        margin-right: 2rem;
+        margin-top: 2rem;
+    }
+
+}

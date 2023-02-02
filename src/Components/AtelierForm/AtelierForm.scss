@@ -1,0 +1,152 @@
+.AtelierForm__Wrapper {
+    padding: 30px;
+    background: #FCFCFC;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    margin-bottom: 50px;
+    margin-top: -40px;
+    .wrapperResponse {
+        width: 100vw;
+        height: 100vh;
+        top:0;
+        left: 0;
+        position: fixed;
+        z-index: 999999999999999;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(0, 0, 0, 0.8);
+        .wrapperBody {
+            background-color: #eeeeee;
+            background-image: url("../../assets/termsBg.png");
+            background-position: left;
+            background-size: 67%;
+            background-repeat: no-repeat;
+            background-color: #fff;
+            padding: 60px 40px 60px;
+            border-radius: 25px;
+            display: flex;
+            position: relative;
+            flex-direction: column;
+            align-items: center;
+            .closeBtnModalsteps {
+                position: absolute;
+                right: 30px;
+                top: 30px;
+                cursor: pointer;
+                color: #D8D8D8;
+                    font-size: 26px;
+            }
+            h1 {
+                font-weight: 500;
+                font-size: 56px;
+                line-height: 50px;
+                color: #E9020C;
+                margin-bottom: 20px;
+            }
+            h3 {
+                font-weight: 500;
+                font-size: 37px;
+                line-height: 46px;
+                max-width: 400px;
+                text-align: center;
+            }
+        }
+    }
+    h2 {
+        font-weight: 400;
+        font-size: 14px;
+        color: #9a9ea7;
+        margin-bottom: 15px;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        .atelierLine {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            margin: 5px auto;
+            &:nth-child(1) {
+                .inputAt {
+                    width: 48%;
+                }
+            }
+            textarea {
+                width: 100%;
+                min-height: 150px;
+                resize: none;
+                padding: 20px;
+                font-size: 16px;
+                border: 1px solid #eeeeee;
+                color: #0d0a19;
+                border-radius: 8px;
+                outline: none;
+                &::placeholder {
+                    font-weight: 300;
+                    font-size: 16px;
+                    line-height: 21px;
+                    color: #9A9EA7;
+                }
+            }
+            .holo {
+                border: 2px solid #E9020C;
+            }
+            button {
+                width: 100%;
+                max-width: 350px;
+                margin: 5px auto;
+                cursor: pointer;
+                outline: none;
+                border: none;
+                color: #fff;
+                padding: 16px;
+                background: #E9020C;
+                border-radius: 10px;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 21px;
+                letter-spacing: -0.1px;
+                color: #FFFFFF;
+                transition: all ease-in-out 0.2s;
+                &:hover {
+                        background-color: #f53c45;
+                        transition: all ease-in-out 0.2s;
+                    }
+            }
+                        .react-tel-input .form-control {
+                            width: 100% !important;
+                            height:53px !important;
+                        }
+        }
+    }
+}
+@media screen and (max-width:600px) {
+    .AtelierForm__Wrapper {
+        width: 95%;
+        padding: 30px 15px;
+    }
+}
+@media screen and (max-width:500px) {
+    .AtelierForm__Wrapper {
+        .wrapperResponse {
+            .wrapperBody {
+                width: 95%;
+                padding: 45px 30px;
+                .closeBtnModalsteps {
+                    top: 20px;
+                    right: 20px;
+                }
+                h1 {
+                    font-size: 40px;
+                }
+                h3 {
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+}

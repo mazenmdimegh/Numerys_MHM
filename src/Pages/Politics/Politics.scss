@@ -1,0 +1,86 @@
+.StaticWrapper {
+    width: 100%;
+    height: 100%;
+    background-image: url("../../assets/termsBg.png");
+    background-repeat: no-repeat;
+
+    .infosWrapper {
+        width: 75%;
+        margin: 150px 110px;
+
+        .headerLegal {
+            font-weight: 400;
+            font-size: 36px;
+            color: #000;
+            margin-bottom: 20px;
+        }
+
+        .infoParass {
+            margin-bottom: 20px;
+
+            #para {
+                font-weight: 400;
+                font-size: 20px;
+                color: #9A9EA7;
+            }
+        }
+
+        .infoBlock {
+            margin-bottom: 40px;
+
+            .infoTitle {
+                font-weight: 400;
+                font-size: 20px;
+                color: #E9020C;
+                margin-bottom: 15px;
+            }
+
+            .infoPara {
+                font-weight: 400;
+                font-size: 20px;
+                color: #9A9EA7;
+            }
+        }
+    }
+}
+
+//MEDIA QUERIS FOR RESPONSIVNESS
+@media screen and (max-width:768px) {
+    .StaticWrapper {
+        .infosWrapper {
+            margin: 150px 80px;
+        }
+    }
+}
+
+//MEDIA QUERIS FOR RESPONSIVNESS
+@media screen and (max-width:600px) {
+    .StaticWrapper {
+        background-size: 80%;
+
+        .infosWrapper {
+            width: 75%;
+            margin: 150px 30px;
+
+            .headerLegal {
+                font-size: 28px;
+            }
+
+            .infoParass {
+                #para {
+                    font-size: 16px;
+                }
+            }
+
+            .infoBlock {
+                .infoTitle {
+                    font-size: 16px;
+                }
+
+                .infoPara {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}

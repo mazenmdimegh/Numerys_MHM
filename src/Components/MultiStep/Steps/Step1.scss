@@ -1,0 +1,65 @@
+.step1wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    
+    .etape {
+        align-self: flex-start;
+        margin-bottom: 30px;
+            .n_etape {
+                font-size: 16px;
+                color: #9A9EA7;
+                line-height: 24px;
+    
+                .etapNb {
+                    color: #FF000B;
+                    font-weight: 700;
+                }
+            }
+        }
+    .selectInput {
+        color: #E9020C;
+        padding: 15px 25px;
+        background-color: #fff;
+        width: 300px;
+        border-radius: 12px;
+        border: none;
+        outline: none;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        margin-bottom: 20px;
+        cursor: pointer;
+        
+    }
+         .MultiBtn {
+             background-color: #E9020C;
+             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+             border-radius: 8px;
+             width: 300px;
+             color: #fff;
+             padding: 13px 80px;
+             cursor: pointer;
+             outline: none;
+             border: none;
+             font-weight: 600;
+             font-size: 15px;
+             line-height: 24px;
+             transition: all ease-in-out 0.2s;
+    
+             &:hover {
+                 background-color: #f53c45;
+                 transition: all ease-in-out 0.2s;
+             }
+         }
+}
+@media screen and (max-width:375px) {
+    .step1wrapper {
+        .selectInput {
+            width: 240px;
+            padding: 15px 15px;
+        }
+        .MultiBtn {
+            width: 240px;
+        }
+    }
+}

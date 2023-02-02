@@ -1,0 +1,373 @@
+@media screen and (min-width:788px) {
+    .Contact2 {
+        margin: 50px auto;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 19px;
+        line-height: 24px;
+        display: flex;
+        justify-content: center;
+        .error-Input {
+            border: 2px solid #E9020C !important;
+        }
+
+        .error {
+            font-size: 12px !important;
+            margin: 0 !important;
+            color: #E9020C;
+        }
+        .margin{
+            margin: auto!important ;
+        }
+
+        .achatButton {
+            display: flex;
+        }
+
+        .atlierFormButton {
+            background: #E9020C;
+            border: transparent;
+            box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+            border-radius: 8px;
+            width: 300px;
+            height: 42px;
+            color: #FFFFFF;
+            margin: 1rem auto;
+            cursor: pointer;
+            font-family: "Poppins";
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 21px;
+            &:hover {
+                    background-color: #f53c45;
+                    transition: all ease-in-out 0.2s;
+                }
+        }
+
+        .formAchat {
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+            background: #F9F9F9;
+            border-radius: 8px;
+            margin-top: 6vh;
+            max-width: 770px;
+
+            .Notfound{
+                font-size: 16px;
+                color: #E9020C;
+                text-align: center;
+                padding: 0 0 17px 0;
+            }
+            .atelierForm {}
+
+            .Atelierlabel {
+                margin-left: 7rem;
+                padding-top: 3vh;
+                font-family: 'Poppins';
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 17px;
+                line-height: 21px;
+                /* identical to box height, or 150% */
+                letter-spacing: -0.1px;
+                color: #9A9EA7;
+            }
+
+            .varflex {
+                display: flex;
+            }
+
+            .flex {
+                display: flex;
+            }
+
+            .nom_prenom {
+                border-radius: 8px;
+                // filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+                margin-left: 5rem;
+                margin-right: 5rem;
+
+                .input1 {
+                    width: 100%;
+                    margin-right: 1rem;
+
+                    p:hover {
+                        border: 0;
+                    }
+
+                    .textArea {
+                        padding: 20px 40px 20px 20px;
+                        margin: auto ;
+                        border: 1px solid #EEEEEE;
+                        border-radius: 8px;
+                        font-size: 16px;
+                        resize: none;
+                        line-height: 21px;
+                        color: #0D0A19;
+                        font-family: "Poppins", sans-serif;
+                    }
+                }
+
+                .input2 {
+                    width: 100%;
+
+                    p:hover {
+                        border: 0;
+                    }
+                }
+
+                .input2 :hover {
+                    border: 1px solid #929792;
+
+                }
+
+                .input1 :hover {
+                    border: 1px solid #929792;
+
+                }
+
+                .Long {
+                    margin: auto;
+                    display: flex;
+                    flex-direction: column;
+
+                }
+
+                .fileinputt {
+                    width: 300px;
+                    padding: 13px 16px;
+                    background: #F9F9F9;
+                    border: 1px solid #ff0000;
+                    border-radius: 13px;
+                    font-weight: 400;
+                    font-family: 'Poppins', sans-serif;
+                    margin: 13px 0;
+                    text-align: inherit;
+                    color: #E9020C;
+                    cursor: pointer;
+
+                }
+
+                .hidden {
+                    visibility: hidden;
+                }
+
+                .inputPiece {
+                    width: 200px;
+                    padding: 13px 16px;
+                    background: #F9F9F9;
+                    border: 1px solid #d5d5d5;
+                    border-radius: 13px;
+                    font-weight: 400;
+                    color: #0D0A19;
+                    font-family: 'Poppins', sans-serif;
+                    margin: 13px 0;
+                }
+
+            }
+
+            p {
+                color: #E9020C;
+                margin-left: 5rem;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 19px;
+                line-height: 24px;
+            }
+
+
+        }
+    }
+}
+
+//MEDIA QUERIS FOR RESPONSIVNESS
+@media screen and (max-width:788px) {
+    .Contact2 {
+        margin: 5vh auto;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 19px;
+        line-height: 24px;
+        max-width: 350px;
+
+        .error-Input {
+            border: 2px solid #E9020C !important;
+        }
+
+        .error {
+            font-size: 12px !important;
+            margin: 0 !important;
+            color: #E9020C;
+        }
+
+        .achatButton {
+            display: flex;
+        }
+
+        .atlierFormButton {
+            background: #E9020C;
+            border: transparent;
+            box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+            border-radius: 8px;
+            width: 300px;
+            height: 42px;
+            color: #FFFFFF;
+            margin: 1rem auto;
+            cursor: pointer;
+            font-family: 'Poppins';
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 21px;
+        }
+
+        .formAchat {
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+            background: #F9F9F9;
+            border-radius: 8px;
+            margin-top: 6vh;
+            max-width: 770px;
+            min-width: 315px;
+
+            .atelierForm {
+            }
+
+            .Atelierlabel {
+                margin-left: 5rem;
+                padding-top: 3vh;
+                font-family: 'Poppins';
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 17px;
+                line-height: 21px;
+                /* identical to box height, or 150% */
+                letter-spacing: -0.1px;
+                color: #9A9EA7;
+            }
+
+            .flex {
+                display: flex;
+            }
+
+            .nom_prenom {
+                border-radius: 8px;
+                // filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+                margin: 0 5vw;
+
+                .input1 {
+                    width: 100%;
+                    margin-right: 1rem;
+
+                    p:hover {
+                        border: 0;
+                    }
+
+                    .textArea {
+                        width: 100%;
+                        padding: 20px 40px 20px 20px;
+                        outline: none;
+                        background: #FFFFFF;
+                        border: 1px solid #EEEEEE;
+                        border-radius: 8px;
+                        font-weight: 400;
+                        resize: none;
+                        font-size: 16px;
+                        line-height: 21px;
+                        color: #0D0A19;
+                        font-family: 'Poppins', sans-serif;
+                    }
+                }
+
+                .input2 {
+                    width: 100%;
+
+                    p:hover {
+                        border: 0;
+                    }
+                }
+
+                .input2 :hover {
+                    border: 1px solid #929792;
+
+                }
+
+                .input1 :hover {
+                    border: 1px solid #929792;
+
+                }
+
+                .Long {
+                    margin: auto;
+                }
+
+                .fileinputt {
+                    width: 300px;
+                    padding: 13px 16px;
+                    background: #F9F9F9;
+                    border: 1px solid #ff0000;
+                    border-radius: 13px;
+                    font-weight: 400;
+                    font-family: 'Poppins', sans-serif;
+                    margin: 13px 0;
+                    text-align: inherit;
+                    color: #E9020C;
+                    cursor: pointer;
+
+                }
+
+                .hidden {
+                    visibility: hidden;
+                }
+
+                .inputPiece {
+                    width: 200px;
+                    padding: 13px 16px;
+                    background: #F9F9F9;
+                    border: 1px solid #d5d5d5;
+                    border-radius: 13px;
+                    font-weight: 400;
+                    color: #0D0A19;
+                    font-family: 'Poppins', sans-serif;
+                    margin: 13px 0;
+                }
+
+            }
+
+            p {
+                color: #E9020C;
+                margin-left: 5rem;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 19px;
+                line-height: 24px;
+            }
+
+
+        }
+    }
+}
+
+//MEDIA QUERIS FOR RESPONSIVNESS
+@media screen and (max-width:600px) {
+    .Contact2 {
+        // .resetModal {
+        //     // background-size: 117% !important;
+        //     // width: 318px !important;
+        //     // height: 192px !important;
+        //     .title{
+        //         .oup{
+        //             margin-top: 0 !important;
+        //             font-size: 47px!important;
+        //         }
+        //         p{
+        //             font-size: 26px!important;
+        //             width: 273px!important;
+        //         }
+        //     }
+        // }
+    }
+}

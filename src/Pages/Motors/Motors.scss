@@ -1,0 +1,218 @@
+ .title {
+    text-align: center;
+    height: 5px;
+    left: 36.25%;
+    right: 36.18%;
+    top: calc(50% - 36px/2 - 363px);
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    /* identical to box height, or 129% */
+
+    letter-spacing: -0.1px;
+
+    color: #9A9EA7;
+ }
+
+ .overlay {
+    height: 1000vw;
+    background: rgba(49, 49, 49, 0.8);
+    width: 1000%;
+    top: -50%;
+    position: absolute;
+    left: -50%;
+ }
+
+ .emptypro {
+
+   margin-top: 48vh;
+   margin-bottom: 25vh;
+   
+   .spinner {
+       position: relative;
+       margin-top: 48vh;
+       margin-bottom: 25vh;
+   }
+ 
+ }
+
+ .status {
+    text-align: left;
+    margin-left: 8%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    height: 40%;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 21px;
+ }
+
+ .style img {
+    margin-left: 45%;
+    margin-top: -4%;
+    background: transparent;
+    border-color: none;
+    outline: none;
+ }
+
+ .style2 img {
+    margin-left: 45%;
+    margin-top: -4%;
+    background: red;
+    border-color: none;
+    outline: none;
+ }
+
+ .price {
+    flex-direction: row;
+    border-radius: 8px;
+    float: left;
+    height: 10%;
+    width: 20%;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+ }
+
+ .bestseller {
+    flex-direction: row;
+    border-radius: 10px;
+    float: left;
+    height: 10%;
+    margin-left: 5%;
+    width: 40%;
+    background-color: rgb(245, 246, 247);
+
+
+
+ }
+
+ .text-price {
+    text-align: center;
+    padding-top: 12%;
+    padding-bottom: 9%;
+
+
+    color: #E9020C;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ .card-design {
+
+    padding-right: 10%;
+    padding-left: 10%;
+
+ }
+
+ .cylindre {
+    color: #9A9EA7;
+ }
+
+ .bestseller-color {
+    /* position: absolute; */
+    margin-left: 79%;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), #9A9EA7;
+    border-radius: 8px;
+    height: 34px;
+    width: 79px;
+    margin-top: -41px;
+    right: 10px;
+    text-align: center;
+    padding-top: 8px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+
+    color: #9A9EA7;
+ }
+
+ .ombres_multiples_diffuses {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+ }
+
+ .overflow img {
+    width: 99.9%;
+    height: 50%;
+ }
+
+ .partenaire {
+    align-content: center;
+    padding-left: 20%;
+    height: 20%;
+    margin-bottom: 10%;
+    right: 20rem;
+ }
+
+ .fixedtext {
+    float: left;
+    top: 10%;
+    margin: 30%;
+ }
+
+ .animatedtext {
+
+    margin-top: 13rem;
+
+ }
+
+ .Navbar:root {
+    --maincolor: transparent;
+    --mainColorLight: #5767aa;
+    --secondaryColor: #DB2B39;
+    --textColor: rgb(210, 68, 68);
+ }
+
+ .cardImage-bloc1 p {
+    float: left;
+    width: 50%;
+    font-size: 15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 12px;
+
+ }
+
+ .cardImage-bloc1 button {
+    margin-top: 8px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    border: transparent;
+    float: right;
+    width: 40%;
+    color: #E9020C;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+ }
+
+ .cardImage-bloc2 p {
+
+    width: 50%;
+    font-size: 15px;
+    padding-top: 20%;
+ }
+
+ .cardImage-bloc2 button {
+    float: right;
+    width: 25%;
+    margin-top: -45;
+    color: #9A9EA7;
+    padding-top: 3px;
+
+ }

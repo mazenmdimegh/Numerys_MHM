@@ -1,0 +1,339 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+.content {
+  position: absolute;
+  /* top: 125%; */
+  left: 53%;
+  transform: translate(-50%, -50%);
+  /* height: 160px; */
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+  font-size: 35px;
+  line-height: 40px;
+  margin-bottom: 12px;
+  margin-top: 13rem;
+}
+.animatedtext {
+  margin-bottom: 2rem;
+}
+.content__container {
+  font-weight: 500;
+  overflow: hidden;
+  height: 58px;
+  padding-left: -70%;
+}
+.content__container__text {
+  display: inline;
+  float: left;
+  margin: 0;
+  font-size: 35px;
+  color: black;
+}
+.content__container__list {
+  margin-top: -5;
+  padding-left: 333px;
+  text-align: left;
+  list-style: none;
+  -webkit-animation-name: change;
+  -webkit-animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: change;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+.content__container__list__item {
+  line-height: 50px;
+  margin: 0;
+  padding-right: 3%;
+  width: 526.7875px;
+  color: red;
+  margin-top: -7px;
+  margin-bottom: 13px;
+}
+@-webkit-keyframes opacity {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes change {
+  0%,
+  12.66%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+  16.66%,
+  29.32% {
+    transform: translate3d(0, -25%, 0);
+  }
+  33.32%,
+  45.98% {
+    transform: translate3d(0, -50%, 0);
+  }
+  49.98%,
+  62.64% {
+    transform: translate3d(0, -75%, 0);
+  }
+  66.64%,
+  79.3% {
+    transform: translate3d(0, -50%, 0);
+  }
+  83.3%,
+  95.96% {
+    transform: translate3d(0, -25%, 0);
+  }
+}
+@-o-keyframes opacity {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+@-o-keyframes change {
+  0%,
+  12.66%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+  16.66%,
+  29.32% {
+    transform: translate3d(0, -25%, 0);
+  }
+  33.32%,
+  45.98% {
+    transform: translate3d(0, -50%, 0);
+  }
+  49.98%,
+  62.64% {
+    transform: translate3d(0, -75%, 0);
+  }
+  66.64%,
+  79.3% {
+    transform: translate3d(0, -50%, 0);
+  }
+  83.3%,
+  95.96% {
+    transform: translate3d(0, -25%, 0);
+  }
+}
+@-moz-keyframes opacity {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes change {
+  0%,
+  12.66%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+  16.66%,
+  29.32% {
+    transform: translate3d(0, -25%, 0);
+  }
+  33.32%,
+  45.98% {
+    transform: translate3d(0, -50%, 0);
+  }
+  49.98%,
+  62.64% {
+    transform: translate3d(0, -75%, 0);
+  }
+  66.64%,
+  79.3% {
+    transform: translate3d(0, -50%, 0);
+  }
+  83.3%,
+  95.96% {
+    transform: translate3d(0, -25%, 0);
+  }
+}
+@keyframes opacity {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+@keyframes change {
+  0%,
+  12.66%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+  16.66%,
+  29.32% {
+    transform: translate3d(0, -25%, 0);
+  }
+  33.32%,
+  45.98% {
+    transform: translate3d(0, -50%, 0);
+  }
+  49.98%,
+  62.64% {
+    transform: translate3d(0, -75%, 0);
+  }
+  66.64%,
+  79.3% {
+    transform: translate3d(0, -50%, 0);
+  }
+  83.3%,
+  95.96% {
+    transform: translate3d(0, -25%, 0);
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .content__container__list {
+    margin-top: -5;
+    padding-left: 333px[];
+    text-align: left;
+    list-style: none;
+    -webkit-animation-name: change;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: change;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    font-size: 30px;
+  }
+  .content__container__text {
+    display: flow-root;
+    font-size: 30px;
+  }
+  .animatedtext {
+    display: flow-root;
+  }
+  .content__container__list__item {
+    line-height: 50px;
+    margin: 0;
+    padding-right: 3%;
+    width: 344px;
+    color: red;
+    margin-top: -7px;
+    margin-bottom: 13px;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+    
+    .content{
+        margin-top: 8rem;
+    }
+  .content__container__list {
+    margin-top: -5;
+    padding-left: 333px [];
+    text-align: left;
+    list-style: none;
+    -webkit-animation-name: change;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: change;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    font-size: 14px;
+    margin-left: -13rem;
+  }
+  .content__container__text {
+    display: flow-root;
+    font-size: 14px;
+    margin-left: 0rem;
+  }
+  .animatedtext {
+    display: flow-root;
+  }
+  .content__container__list__item {
+    line-height: 50px;
+    margin: 0;
+    // padding-right: 3%;
+    width: 210px;
+    color: red;
+    margin-top: -7px;
+    margin-bottom: 13px;
+  }
+}
+@media only screen and (min-width: 461px) and (max-width:900px) {
+    
+    .content{
+        margin-top: 8rem;
+    }
+  .content__container__list {
+    margin-top: -5;
+    padding-left: 333px [];
+    text-align: left;
+    list-style: none;
+    -webkit-animation-name: change;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: change;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    font-size: 16px;
+    margin-left: -11rem;
+  }
+  .content__container__text {
+    display: flow-root;
+    font-size: 16px;
+    margin-left: 0rem;
+  }
+  .animatedtext {
+    display: flow-root;
+  }
+  .content__container__list__item {
+    line-height: 50px;
+    margin: 0;
+    // padding-right: 3%;
+    width: 263px;
+    color: red;
+    margin-top: -7px;
+    margin-bottom: 13px;
+  }
+}
+@media only screen and (min-width: 901px) and (max-width:1000px) {
+    
+    .content{
+        margin-top: 8rem;
+    }
+  .content__container__list {
+    margin-top: -5;
+    padding-left: 333px [];
+    text-align: left;
+    list-style: none;
+    -webkit-animation-name: change;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: change;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    font-size: 24px;
+    margin-left: 0rem;
+  }
+  .content__container__text {
+    display: flow-root;
+    font-size: 24px;
+    margin-left: 6rem;
+  }
+  .animatedtext {
+    display: flow-root;
+  }
+  .content__container__list__item {
+    line-height: 50px;
+    margin: 0;
+    // padding-right: 3%;
+    width: 462px;
+    color: red;
+    margin-top: -7px;
+    margin-bottom: 13px;
+  }
+}

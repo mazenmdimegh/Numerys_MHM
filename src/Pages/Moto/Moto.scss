@@ -1,0 +1,904 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+@media only screen and (min-width: 663px) {
+    .Desktop {
+        width: 100%;
+
+        .content {
+            margin-top: -3rem;
+        }
+    }
+
+    .details {
+        min-width: 714px;
+        .PhoneInput {
+            margin-left: 10px;
+            margin-bottom: 10px;
+
+            input{
+                margin-bottom: 0;
+            }
+        }
+        .centre {
+            text-align: center;
+            justify-content: center;
+        }
+
+        .EmptySpace {
+            margin: 250px 0;
+
+            .spinner {
+                position: static;
+
+            }
+
+            p {
+                text-align: center;
+                margin-top: 10px;
+            }
+        }
+        .productDetail-blocs_bloc1{
+            margin-right: 34;
+        }
+        // min-width: 700px;
+        .Navbar_header__LYq5n {
+            z-index: -1;
+        }
+
+        .Mobile {
+            display: none;
+        }
+
+        .externalProp {
+            display: flex;
+            margin: 0 9%;
+            border-radius: 14px;
+        }
+
+        .path {
+            height: 21px;
+            width: 500px;
+            margin-left: 12%;
+            margin-top: 224px;
+            border-radius: nullpx;
+            font-family: Poppins;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 21px;
+            letter-spacing: -0.10000000149011612px;
+            text-align: left;
+            color: #9A9EA7;
+
+            a:hover{
+                color: red;
+            }
+
+            a {
+                text-decoration: none;
+                color: #9A9EA7;
+
+            }
+            span {
+                color: #9A9EA7;
+            }
+            .span {
+                font-size: 14px;
+                font-family: fantasy;
+                color: #9A9EA7;
+
+            }
+        }
+    }
+
+    .Carous {
+        display: none;
+    }
+
+    .properties {
+        margin: 2rem;
+        background-color: greenyellow;
+    }
+
+    .type_price {
+        display: none;
+        background: #FCFCFC;
+        box-shadow: 0px 4px 4px rgb(153 155 168 / 25%);
+        border-radius: 8px;
+        margin: 2rem;
+        width: 89%;
+        margin-left: 7rem;
+    }
+
+    #type {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 48px;
+        /* identical to box height, or 192% */
+
+        letter-spacing: -0.1px;
+
+        /* #0D0A19 / Primary */
+
+        color: #0D0A19;
+        margin-right: auto;
+    }
+
+    #price {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 36px;
+        /* identical to box height, or 100% */
+
+        letter-spacing: -0.1px;
+
+        color: #E9020C;
+    }
+
+    #type {
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 48px;
+        /* identical to box height, or 192% */
+
+        letter-spacing: -0.1px;
+
+        /* #0D0A19 / Primary */
+
+        color: #0D0A19;
+    }
+
+    #price {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 36px;
+        /* identical to box height, or 100% */
+
+        letter-spacing: -0.1px;
+
+        color: #E9020C;
+    }
+
+    .property1 {
+        display: flex;
+
+    }
+
+    .catg {
+        display: flex;
+        min-width: 56px;
+        justify-content: center;
+        margin-right: auto;
+    }
+
+
+    .properties {
+        display: none;
+        background: #FCFCFC;
+        box-shadow: 0px 4px 4px rgb(153 155 168 / 25%);
+        border-radius: 8px;
+        margin-left: 7rem;
+        margin-right: 14rem;
+        padding-left: 4rem;
+        width: 89%;
+
+    }
+
+    .fiche-form {
+        display: flex;
+        margin: 0px 9%;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .form-contact {
+            margin: auto !important;
+            ;
+        }
+
+        .formAchat {
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+            background: #F9F9F9;
+            border-radius: 8px;
+            margin-top: 6vh;
+            max-width: 351px !important;
+            min-width: 315px;
+
+            .atelierForm {}
+
+            .Atelierlabel {
+                margin-left: 5rem;
+                padding-top: 3vh;
+                font-family: 'Poppins';
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 17px;
+                line-height: 21px;
+                /* identical to box height, or 150% */
+                letter-spacing: -0.1px;
+                color: #9A9EA7;
+            }
+
+            .varflex {
+                display: block !important;
+            }
+
+            .flex {
+                display: flex;
+            }
+
+            .nom_prenom {
+                border-radius: 8px;
+                // filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+                margin: 0 2vw !important;
+
+                input {
+                    padding: 13px 40px 13px 20px !important;
+                }
+
+                .input1 {
+                    width: 100%;
+                    margin-right: 1rem;
+
+                    p:hover {
+                        border: 0;
+                    }
+
+                    .textArea {
+                        width: 100%;
+                        padding: 20px 40px 20px 20px;
+                        outline: none;
+                        background: #FFFFFF;
+                        border: 1px solid #EEEEEE;
+                        border-radius: 8px;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 21px;
+                        color: #0D0A19;
+                        font-family: 'Poppins', sans-serif;
+                    }
+                }
+
+                .input2 {
+                    width: 100%;
+
+                    p:hover {
+                        border: 0;
+                    }
+                }
+
+                .input2 :hover {
+                    border: 1px solid #929792;
+
+                }
+
+                .input1 :hover {
+                    border: 1px solid #929792;
+
+                }
+
+                .Long {
+                    margin: auto;
+                }
+
+                .fileinputt {
+                    width: 300px;
+                    padding: 13px 16px;
+                    background: #F9F9F9;
+                    border: 1px solid #ff0000;
+                    border-radius: 13px;
+                    font-weight: 400;
+                    font-family: 'Poppins', sans-serif;
+                    margin: 13px 0;
+                    text-align: inherit;
+                    color: #E9020C;
+                    cursor: pointer;
+
+                }
+
+                .hidden {
+                    visibility: hidden;
+                }
+
+                .inputPiece {
+                    width: 200px;
+                    padding: 13px 16px;
+                    background: #F9F9F9;
+                    border: 1px solid #d5d5d5;
+                    border-radius: 13px;
+                    font-weight: 400;
+                    color: #0D0A19;
+                    font-family: 'Poppins', sans-serif;
+                    margin: 13px 0;
+                }
+
+            }
+
+            p {
+                color: #E9020C;
+                margin-left: 5rem;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 19px;
+                line-height: 24px;
+            }
+
+
+        }
+    }
+
+    .fiche_tech {
+        margin: 71px 42px 0 42px;
+        min-width: 451px;
+
+        p {
+            max-width: 500px;
+        }
+
+        .productDeatil_blocs {
+            // margin: 73px 15%;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 38px;
+        }
+
+
+        .Details {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            letter-spacing: -0.1px;
+            color: #0D0A19;
+            padding-bottom: 2rem;
+            display: flex;
+
+            .Detail {
+                svg {
+                    width: 30px;
+                    height: 28px;
+                }
+            }
+
+            p {
+                padding-top: 3px;
+                padding-left: 14px;
+            }
+
+
+        }
+    }
+
+    #fiche_tech_ficheTech {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 48px;
+        /* or 192% */
+
+        letter-spacing: -0.1px;
+
+        /* #0D0A19 / Primary */
+
+        color: #0D0A19;
+        padding-bottom: 32px;
+    }
+
+    #fiche_tech_moto {
+        /* Heading / h4 */
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 27px;
+        /* or 150% */
+        padding-bottom: 15px;
+
+        /* #0D0A19 / Primary */
+
+        color: #0D0A19;
+    }
+
+    #fiche_tech_moto_description {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        /* or 150% */
+
+        letter-spacing: -0.1px;
+
+        /* #0D0A19 / Primary */
+        white-space: pre-wrap;
+        color: #0D0A19;
+        margin-right: 2rem;
+    }
+
+
+
+    .formReseller_Componenet {
+        margin-top: -31%;
+    }
+
+    .background {
+
+        background: #791f1f;
+        box-shadow: 0px 4px 4px rgba(153, 155, 168, 0.25);
+        border-radius: 8px;
+    }
+
+    .cadreMoto {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #produitSimilaire {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 27px;
+        /* identical to box height, or 135% */
+
+
+        color: #0D0A19;
+        margin-left: 6rem;
+
+    }
+
+    .produitSimilaire {
+        background: #F9F9F9;
+        border-radius: 8px;
+        margin: 5rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        height: 77%;
+        overflow-y: hidden;
+    }
+
+    .prop1 {
+        background: #FCFCFC;
+        padding-bottom: 33px;
+        padding-top: 2px;
+        margin: auto;
+        box-shadow: 0px 4px 4px rgb(153 155 168 / 25%);
+        border-radius: 8px;
+        width: 100%;
+
+        .blocContainer {
+            margin-left: 50px;
+        }
+    }
+
+    .bloc1 {
+
+        margin-top: 50px;
+        padding-bottom: 107px;
+        height: 71px;
+
+        border-bottom: 1px solid;
+        border-color: gainsboro;
+
+    }
+
+    .line-through {
+        text-decoration-line: line-through;
+        margin-right: 20px;
+        color: #9a9ea7;
+        font-size: 24px;
+        text-decoration-color: #E9020C;
+
+    }
+
+    .r {
+        color: #E9020C !important;
+
+
+    }
+
+    .bloc1-typeNom {
+        float: left;
+        margin-left: 42px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 48px;
+        /* identical to box height, or 133% */
+
+        letter-spacing: -0.1px;
+
+        /* #0D0A19 / Primary */
+
+        color: #0D0A19;
+
+
+    }
+
+    .bloc1-prix {
+        float: right;
+        margin-right: 42px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 36px;
+        /* identical to box height, or 100% */
+
+        text-align: right;
+        letter-spacing: -0.1px;
+        display: flex;
+        color: #E9020C;
+
+    }
+
+    .bloc2 {
+        display: flex;
+        justify-content: space-between;
+
+
+    }
+
+    .a {
+        margin-left: 36px;
+    }
+
+    .b {
+        margin-right: 42px;
+    }
+
+    .category {
+
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: -0.1px;
+    }
+
+    .Marque {
+        float: left;
+        width: 25%;
+        padding-left: 70px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 21px;
+        /* identical to box height, or 150% */
+
+        letter-spacing: -0.1px;
+
+        /* #0D0A19 / Primary */
+
+        color: #0D0A19;
+
+
+
+    }
+
+    .Modele {
+        float: left;
+        width: 25%;
+        padding-left: 100px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 21px;
+        /* identical to box height, or 150% */
+
+        letter-spacing: -0.1px;
+
+        /* #0D0A19 / Primary */
+
+        color: #0D0A19;
+
+
+
+    }
+
+    .Coloris {
+        float: left;
+        width: 25%;
+        padding-left: 120px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 21px;
+        /* identical to box height, or 150% */
+
+        letter-spacing: -0.1px;
+
+        /* #0D0A19 / Primary */
+
+        color: #0D0A19;
+    }
+
+    .info {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        /* identical to box height, or 150% */
+
+        letter-spacing: -0.1px;
+
+        /* Greys / #9A9EA7 */
+
+        color: #9A9EA7;
+    }
+
+    .catg {
+        margin-right: auto;
+        padding-left: 8%;
+    }
+
+    .labelCategory {
+        min-width: 83px;
+        margin-top: 30px;
+        margin-left: 3px;
+    }
+
+    .RiMotorbikeLine {
+        width: 20%;
+    }
+
+    .bloc2 img {
+        padding-top: 27px;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 662px) {
+    .details {
+        .EmptySpace {
+            margin: 250px 0;
+
+            .spinner {
+                position: static;
+
+            }
+
+            p {
+                text-align: center;
+                margin-top: 10px;
+            }
+        }
+
+        .centre {
+            text-align: center;
+            justify-content: center;
+            margin: 62px 0;
+        }
+
+        .Desktop {
+            display: none;
+        }
+
+        .motoCard {
+            margin: 20px auto !important;
+        }
+
+        .Mobile {
+            // position: relative;
+            // z-index: 1;
+
+            header {
+                z-index: 1;
+            }
+        }
+
+        .type_price {
+            margin-top: -17px;
+            background-color: #ffffff;
+            position: relative;
+            border-top-left-radius: 14px;
+            padding: 21px 10%;
+            z-index: 0;
+            border-top-right-radius: 14px;
+            box-shadow: 1px -1px 5px 0px rgb(255 0 0 / 16%);
+        }
+
+        .properties {
+            min-width: 292px;
+            z-index: 0;
+            padding: 0 10%;
+            position: relative;
+            background-color: #ffffff;
+        }
+
+        #type {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 48px;
+            /* identical to box height, or 192% */
+
+            letter-spacing: -0.1px;
+
+            /* #0D0A19 / Primary */
+
+            color: #0D0A19;
+        }
+
+        .line-through {
+            text-decoration-line: line-through;
+            margin-right: 20px;
+            color: #9a9ea7;
+            font-size: 17px;
+            text-decoration-color: #E9020C;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            line-height: 36px;
+            letter-spacing: -0.1px;
+        }
+
+        #price {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 25px;
+            line-height: 36px;
+            letter-spacing: -0.1px;
+            padding-top: 4px;
+            color: #E9020C;
+
+        }
+
+        .property1 {
+            display: flex;
+            min-width: 56px;
+            justify-content: space-between;
+            padding: 10px 0;
+
+            .labelCategory {
+                min-width: 72px;
+                width: 100px;
+            }
+        }
+
+
+
+        .catg {
+            display: flex;
+            min-width: 56px;
+        }
+
+        #fiche_tech_ficheTech {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 48px;
+            /* or 192% */
+
+            letter-spacing: -0.1px;
+
+            /* #0D0A19 / Primary */
+
+            color: #0D0A19;
+            margin-left: 11%;
+            margin-top: 2rem;
+
+        }
+
+        #fiche_tech_moto {
+            /* Heading / h4 */
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 27px;
+            color: #0D0A19;
+            margin-left: 11%;
+            margin-bottom: 10px;
+        }
+
+        #fiche_tech_moto_description {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            /* or 150% */
+
+            letter-spacing: -0.1px;
+
+            /* #0D0A19 / Primary */
+
+            color: #0D0A19;
+            margin-left: 11%;
+            margin-right: 2rem;
+            white-space: pre-wrap;
+        }
+
+        .productDeatil_blocs {
+            margin-left: 11%;
+            margin-top: 4rem;
+        }
+
+        .Details {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            letter-spacing: -0.1px;
+            color: #0D0A19;
+            padding-bottom: 2rem;
+            display: flex;
+
+            .Detail {
+                svg {
+                    width: 30px;
+                    height: 28px;
+                }
+            }
+
+            p {
+                padding-top: 3px;
+                padding-left: 5px;
+            }
+
+
+        }
+
+        .produitSimilaire {
+            background: #F9F9F9;
+            border-radius: 8px;
+            padding: 15px 0;
+        }
+
+        #produitSimilaire {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 27px;
+            /* identical to box height, or 135% */
+
+
+            color: #0D0A19;
+            margin-left: 2rem;
+
+        }
+
+        .externalProp {
+            display: none;
+        }
+
+
+
+    }
+}

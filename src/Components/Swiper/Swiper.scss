@@ -1,0 +1,32 @@
+.containers {
+    margin-top: 0;
+    padding-left: 0;
+    width: 100%;
+    position: sticky;
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        top: 120px;
+        color: white;
+    }
+
+    .swiper-pagination {
+        // top: 62vw;
+        bottom: 18PX !important;
+
+        .swiper-pagination-bullet {
+            background: white;
+        }
+    }
+
+    .swiper {
+
+        .swiper-slide {
+            img {
+                width: 100vw;
+                max-height: 75vw;
+                object-fit: cover;
+            }
+        }
+    }
+}

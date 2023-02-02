@@ -1,0 +1,23 @@
+@import "./variables.scss";
+nav a.active{
+    font-weight: bold;
+    font-size: 20px;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+*::selection {
+    background-color: #E9020C;
+    color: #fff;
+}
+
+body {
+    width: 100%;
+    font-family: $Poppins;
+}
+
+#root {
+    height: 100%;
+}
